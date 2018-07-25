@@ -1,0 +1,35 @@
+.notice{
+    margin-left:15px;
+    float: left
+}
+
+.date{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    background: none 0px 0px repeat scroll rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-image: initial;
+    border-radius: 30px;
+    margin: 6px;
+    padding: 10px 45px 0px 20px;
+    float: left;
+    height: 30px;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.user{
+    float: right;
+    color: #fff;
+    margin-right: 15px
+}
+.userPhoto{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.8);
+    margin-right: 10px
+}

@@ -1,0 +1,94 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+
+.filter{
+  position: relative;
+}
+.filter ul{
+  list-style: none;
+  overflow: hidden
+}
+.filter li{
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.filter li a{
+  color: #666;
+}
+.filter li span{
+  font-weight: 500
+}
+.filter li a.active{
+  color: #f5222d;
+}
+
+/* :global(.ant-collapse-content){
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+} */
+:global(.ant-collapse-content > .ant-collapse-content-box){
+  padding:5px 0 0 0 
+}
+
+.sort{
+  position: relative;
+  overflow: hidden;
+  border-bottom:1px solid #ddd;
+  line-height: 30px
+}
+.sort ul{
+  list-style: none;
+  overflow: hidden;
+  padding:0;
+  float: left;
+  margin: 5px 0;
+}
+.sort ul li{
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 5px
+}
+.sort ul li span{
+  font-size:14px;
+  color:rgba(0,0,0,.85)
+}
+.sort li a{
+  color: #666;
+}
+.sort li a.active{
+  color: #f5222d;
+}
+
+

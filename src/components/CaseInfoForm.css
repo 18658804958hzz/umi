@@ -1,0 +1,16 @@
+:global(.ant-advanced-search-form) {
+    padding: 5px
+}
+:global(.ant-advanced-search-form .ant-form-item) {
+    display: flex;
+    margin-bottom: 0
+}
+:global(.ant-form-item-label label){
+    font-size:12px;
+    color:rgba(0,0,0,.85);
+    width: 60px;
+    display: block
+}
+:global(.ant-advanced-search-form .ant-form-item-control-wrapper) {
+    flex: 1;
+}

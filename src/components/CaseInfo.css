@@ -1,0 +1,14 @@
+.box{
+    padding: 15px;
+    /* box-shadow: 1px 1px 5px rgba(0,0,0,.2); */
+    background-color: #fff;
+    margin-top: -16px;
+    border:1px solid #e8e8e8
+}
+.box p{
+    line-height: 1.5em;
+    font-size: 12px
+}
+.box p span{
+    color:#1890ff
+}

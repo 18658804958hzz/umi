@@ -1,0 +1,54 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.main {
+  padding: 0 8px;
+  flex: 1 0 auto;
+}
+
+.conentTop{
+  height: 50px;
+  /* border-bottom: 1px solid #ddd; */
+  position: relative;
+}
+
+.toTopLeft{
+  width:0;
+  height:0;
+  border-width:35px 35px 0 0;
+  border-style:solid;
+  border-color:rgb(49, 75, 108) transparent transparent transparent;
+  position:absolute;
+  left: 0;
+  right: 0
+}
+.torightBottom{
+  width:0;
+  height:0;
+  border-width: 0 0 35px 35px;
+  border-style:solid;
+  border-color:#f5f5f5 transparent transparent transparent;
+  position:absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0,0.2)
+}
+
+
+.positonInfo{
+  float: left;
+  font-size: 13px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 40px
+}
+
+

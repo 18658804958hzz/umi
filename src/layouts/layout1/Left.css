@@ -1,0 +1,97 @@
+.logo{
+    position: relative;
+    max-width: 191px;
+    line-height: 64px;
+    height: 64px;
+}
+.logo h1{
+	font-size: 30px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    color: #fff;
+}
+.logo h1 span{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 0;
+    padding: 0 5px;
+    position: relative;
+    top: -3px;
+}
+
+.searchMenu input{
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 0;
+}
+.menu{
+	width: 100%;
+	overflow: hidden;
+}
+
+.box{
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+	margin-top: 15px
+}
+.title{
+	height: 35px;
+	line-height: 35px;
+	padding: 0 5px;
+}
+.title span{
+	display: inline-block;
+    float: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 22px;
+    line-height: 20px;
+    padding: 0 11px;
+    color: #fff;
+    font-size: 14px;
+}
+.titleIcon{
+	font-size: 18px;
+    color: #fff;
+    float: right;
+    margin-top: 8px;
+}
+.content ul{
+	width: 100%;
+	padding: 0
+}
+.content li{
+	font-size: 13px;
+	height: 35px;
+    line-height: 35px;
+    list-style: none outside none;
+    margin: 0;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0 12px;
+    width: 100%;
+    overflow: hidden
+    /* border-top: 1px solid rgba(0,0,0,0.2); */
+}
+.content li:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.content li:hover >.liActive{
+	display: block;
+}
+.content li a{
+	color: #fff;
+	margin-left: 20px
+}
+.liActive{
+	display: none;
+	background-color: #fff;
+	height: 35px;
+	line-height: 35px;
+	width: 2px;
+	position: absolute;
+	left: 10px;
+}
